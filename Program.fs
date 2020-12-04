@@ -12,7 +12,10 @@ let main argv =
 //    printfn "%d" Day2.part2
     // Day 3
 //    printfn "%d" Day3.part1
-    printfn "%A" Day3.part2
+//    printfn "%d" Day3.part2
+    
+    // Day 4
+    printfn "%d" Day4.part1
     
     // too low 712691360
     
