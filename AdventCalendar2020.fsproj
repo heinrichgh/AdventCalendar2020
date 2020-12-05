@@ -22,7 +22,16 @@
         <Content Include="Day4\input.txt">
           <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
         </Content>
+        <Compile Include="Day4\Bencher.fs" />
+        <Compile Include="Day5\Day5.fs" />
+        <Content Include="Day5\input.txt">
+          <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+        </Content>
         <Compile Include="Program.fs" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="BenchmarkDotNet" Version="0.12.1" />
     </ItemGroup>
 
 </Project>

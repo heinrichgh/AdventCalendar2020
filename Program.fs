@@ -1,5 +1,7 @@
 ﻿open System
+open System.Text.RegularExpressions
 open AdventCalendar2020
+open BenchmarkDotNet.Running
 
 [<EntryPoint>]
 let main argv =
@@ -15,8 +17,12 @@ let main argv =
 //    printfn "%d" Day3.part2
     
     // Day 4
-    printfn "%d" Day4.part1
+//    printfn "%d" Day4.part1
+//    printfn "%d" Day4.part2    
+//    BenchmarkRunner.Run typeof<Bencher.Day4Part2Comparison> |> ignore
     
-    // too low 712691360
+    // Day 5
+//    printfn "%A" Day5.part1
+    printfn "%A" Day5.part2
     
     0 // return an integer exit code
