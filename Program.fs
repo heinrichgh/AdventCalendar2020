@@ -31,6 +31,10 @@ let main argv =
     
     // Day 7
 //    printfn "%A" Day7.part1       
-    printfn "%A" Day7.part2
+//    printfn "%A" Day7.part2
+    
+    // Day 8
+//    printfn "%A" Day8.part1       
+    printfn "%A" Day8.part2
     
     0 // return an integer exit code
