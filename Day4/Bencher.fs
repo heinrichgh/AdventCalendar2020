@@ -1,4 +1,4 @@
-﻿module AdventCalendar2020.Bencher
+﻿module AdventCalendar2020.Day9Bencher
 
 open AdventCalendar2020
 open BenchmarkDotNet.Attributes
