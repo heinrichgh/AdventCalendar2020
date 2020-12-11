@@ -44,10 +44,10 @@ let rec computeFinalSeating (seatings:char list) =
     | _ when newSeatings = seatings -> seatings
     | _ -> computeFinalSeating newSeatings
     
-//let part1 =
-//    computeFinalSeating flatSeatings
-//    |> List.filter (fun seat -> seat = '#')
-//    |> List.length
+let part1 =
+    computeFinalSeating flatSeatings
+    |> List.filter (fun seat -> seat = '#')
+    |> List.length
     
 let rec lookdirection rowDir colDir row col (seatings:char list) =
     let currRow = (row+rowDir)
