@@ -39,8 +39,12 @@ let main argv =
     
     // Day 9
 //    printfn "%A" Day9.part1       
-    printfn "%A" Day9.part2
+//    printfn "%A" Day9.part2
 //    printfn "%A" Day9.part2Parallel // This one is currently hanging and not returning results.. not sure why that is
 //    BenchmarkRunner.Run typeof<Bencher.Day9Part2Comparison> |> ignore
+    
+    // Day 10
+//    printfn "%A" Day10.part1       
+    printfn "%A" Day10.part2
     
     0 // return an integer exit code
