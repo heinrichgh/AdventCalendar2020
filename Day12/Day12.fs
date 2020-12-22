@@ -40,6 +40,7 @@ let rec steerShip facing northSouth eastWest commands =
         | ('F', units) ->
             let (northSouthMove, eastWestMove) = moveShipForward facing units
             steerShip facing (northSouth+northSouthMove) (eastWest+eastWestMove) tail
+        | _ -> (northSouth, eastWest)
     | [] -> (northSouth, eastWest)
     
 let shipsPosition = steerShip 0 0 0 input
